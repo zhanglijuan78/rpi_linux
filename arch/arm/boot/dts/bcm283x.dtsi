@@ -423,6 +423,7 @@
 			#address-cells = <1>;
 			#size-cells = <0>;
 			status = "disabled";
+      lizhi = "test";
 		};
 
 		pixelvalve@7e206000 {
