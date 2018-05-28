@@ -144,6 +144,10 @@
 			#mbox-cells = <0>;
 		};
 
+    hellokeys {
+      compatible = "arror,hellokeys";
+    };
+
 		gpio: gpio@7e200000 {
 			compatible = "brcm,bcm2835-gpio";
 			reg = <0x7e200000 0xb4>;
